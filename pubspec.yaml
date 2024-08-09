@@ -1,0 +1,36 @@
+name: google_place_autocomplete
+description: "Flutter package that integrates with the Google Places API to offer location autocomplete functionality"
+homepage: https://github.com/badiniibrahim/google_place_autocomplete
+repository: https://github.com/badiniibrahim/google_place_autocomplete
+
+version: 1.0.0
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  get_cli: ^1.8.1
+  google_fonts: ^6.2.1
+  dio: ^5.5.0+1
+  mockito: ^5.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Merriweather
+      fonts:
+        - asset: assets/fonts/Merriweather-Black.ttf
+        - asset: assets/fonts/Merriweather-Bold.ttf
+        - asset: assets/fonts/Merriweather-Regular.ttf
