@@ -24,7 +24,6 @@ Liked some of my work? Buy me a coffee. Thanks for your support :heart:
 ## Screenshot
 
 ![alt text](1.png)
-![alt text](2.png)
 
 ## Features
 

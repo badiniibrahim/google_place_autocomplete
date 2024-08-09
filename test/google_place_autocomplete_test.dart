@@ -8,11 +8,11 @@ import 'package:google_place_autocomplete/widgets/location_list_tile.dart';
 import 'package:google_place_autocomplete/widgets/text_form_field.dart';
 import 'package:mockito/mockito.dart';
 
-class MockGooglePlaceAutocompleteController extends GetxController
-    with Mock, GooglePlaceAutocompleteController {}
+class MockGooglePlaceAutocompleteController extends Mock
+    implements GooglePlaceAutocompleteController {}
 
 void main() {
-  late GooglePlaceAutocompleteController controller;
+  late MockGooglePlaceAutocompleteController controller;
   const apiKey = 'test_api_key';
 
   setUp(() {
